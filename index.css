@@ -12,10 +12,12 @@ html{
 
 body{
     font-size: 1.7rem;
-    /* font-family:  ; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     min-height: 100vh;
-    background: #640202;
-    background: linear-gradient(150deg, #640202 0%, #64023b 100%);
+    background: url(img/heros.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px);
     line-height: 1.6;
     display: flex;
     align-items: center;
@@ -37,21 +39,24 @@ li{
 
 img{
     width: 100%;
+    /* height: 100vh; */
     display: block;
 }
 
 .main-wrapper{
-    max-width: 1280px;
+    background: url(img/heros.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1500px;
     width: 100%;
     margin: 0 auto;
 }
 
 .app{
-    background-color: rgb(233, 227, 227);
     margin: 2 rem;
     padding: 5rem;
     border-radius: 6px;
-    color: rgb(36, 36, 34);
+    color: rgb(250, 250, 250);
     box-shadow: 0 5px 11px 0 rebeccapurple;
 }
 
@@ -62,11 +67,13 @@ img{
 }
 
 .header-title{
-    color: #640202;
+    /* color: #640202; */
+    text-transform: uppercase;
+    font-size: 5rem;
 }
 
 .header-search{
-    border: 2px solid black;
+    border: 2px solid rgb(252, 250, 250);
     border-radius: 3rem;
     padding: 1rem 2rem;
     position: relative;
@@ -74,11 +81,11 @@ img{
 
 .header-search .form-control{
     min-width: 420px;
-    color: black;
+    color: white;
 }
 
 .header-search .search-btn{
-    color: black;
+    color: white;
     font-size: 2.3rem;
     cursor: pointer;
 
@@ -162,7 +169,7 @@ img{
     position: relative;
     font-weight: 500;
     font-size: 1.9rem;
-    color: black;
+    color: rgb(235, 222, 248);
     cursor: pointer;
     transition: all 300ms ease-in-out;
 }
@@ -178,7 +185,7 @@ img{
     bottom: -1.7rem;
     width: 100%;
     height: 4px;
-    background-color: #640202;
+    background-color: #f7f5f5;
 
 }
 
@@ -195,12 +202,19 @@ img{
     overflow: hidden;
 }
 
+.content-list{
+    align-items: center;
+    backdrop-filter: blur(30px);
+    border-radius: 10px;
+}
+
 .content-list .name{
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 3.4rem;
     font-weight: 500;
-    margin-top: -1.2rem;
+    margin-top: 2rem;
+   justify-content: space-around;
 }
 
 .tabs-body{
@@ -234,7 +248,7 @@ img{
 }
 
 .powerstats li > span{
-    color: yellow;
+    color: #640202;
     font-weight: 700;
 }
 
@@ -254,7 +268,7 @@ img{
 
 .biography li span:first-child{
     font-weight: 600;
-    color: black;
+    color: #640202;
     margin-right: 1rem;
 }
 
