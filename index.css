@@ -169,7 +169,8 @@ img{
     position: relative;
     font-weight: 500;
     font-size: 1.9rem;
-    color: rgb(235, 222, 248);
+    margin: auto;
+    color: rgb(6, 0, 12);
     cursor: pointer;
     transition: all 300ms ease-in-out;
 }
@@ -213,10 +214,8 @@ img{
     letter-spacing: 2px;
     font-size: 3.4rem;
     font-weight: 500;
-    margin-top: 2rem;
-   justify-content: space-around;
+    margin: 2rem 300px;
 }
-
 .tabs-body{
     margin: 3.6rem;
 }
