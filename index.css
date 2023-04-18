@@ -57,7 +57,7 @@ img{
     padding: 5rem;
     border-radius: 6px;
     color: rgb(250, 250, 250);
-    box-shadow: 0 5px 11px 0 rebeccapurple;
+    box-shadow: 0 5px 11px 0 orangered;
 }
 
 .app-header{
@@ -113,7 +113,7 @@ img{
 
 .search-list::-webkit-scrollbar-thumb{
     background-color: #640202;
-    border-radius: 5px;
+    border-radius:  10px;
 }
 
 .search-list-item{
@@ -141,7 +141,7 @@ img{
 }
 
 .app-body::-webkit-scrollbar{
-    width: 7px;
+    width: 10px;
 }
 
 .app-body::-webkit-scrollbar-track{
@@ -149,8 +149,8 @@ img{
 }
 
 .app-body::-webkit-scrollbar-thumb{
-    background-color: #640202;
-    border-radius: 5px;
+    background-color: orangered;
+    border-radius: 10px;
 }
 
 .body-content .tabs-head{
@@ -233,7 +233,7 @@ img{
 }
 
 .powerstats li div i{
-    color: #640202;
+    color: orangered;
 }
 
 .powerstats li div span{
@@ -247,7 +247,7 @@ img{
 }
 
 .powerstats li > span{
-    color: #640202;
+    color: orangered;
     font-weight: 700;
 }
 
@@ -267,7 +267,7 @@ img{
 
 .biography li span:first-child{
     font-weight: 600;
-    color: #640202;
+    color: orangered;
     margin-right: 1rem;
 }
 
@@ -302,7 +302,7 @@ img{
 .appearance li span:last-child{
     font-weight: 600;
     text-transform: capitalize;
-    background-color: #640202;
+    background-color: orangered;
     border-radius: 2rem;
     padding: 0 1rem;
     text-align: right;
@@ -334,7 +334,7 @@ img{
     height: 3px;
     width: 30px;
     transform: translateY(-50%);
-    background-color: #640202;
+    background-color: orangered;
 }
 .connections li span:last-child{
     letter-spacing: 1px;
